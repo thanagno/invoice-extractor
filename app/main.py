@@ -1,3 +1,5 @@
+# Description: This file contains the main FastAPI application and the Streamlit interface.
+
 from fastapi import FastAPI
 from app.api.endpoints import router
 import streamlit as st
